@@ -67,7 +67,7 @@ Swal.fire({
    
        html: '<div class="mensaje">' +
        '<h3 class="bm-4">Black Momets</h3>' +
-       '<p class="bm-2-pp">Fotos listas, gracias por la confianza</p>' +
+       '<p class="bm-2-pp">DISPONIBLE  DENTRO  DE  72 HORAS.</p>' +
        '</div>',
    
     //tamaño
@@ -104,9 +104,9 @@ function modal_08() {
         '<h3 class="bm-4">Black Momets</h3>' +
         '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
         //mediafire jpg
-        '<a href="https://www.mediafire.com/folder/het8r15biwafq/prueva" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
+        '<a href="https://www.mediafire.com/folder/tps5fp2n5qkpi/jpg" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
         //mediafire Raw
-        '<a href="https://www.mediafire.com/folder/ba4cdf9zukzi4" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
+        '<a href="https://www.mediafire.com/folder/btuwfx94c6fx7/raw" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
         imageWidth: 400,
         imageHeight: 500,
         //cerrar
