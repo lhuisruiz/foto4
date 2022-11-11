@@ -149,7 +149,8 @@ function modal_11() {
             '</div>' +
             '<h3 class="bm-4">Black Momets</h3>' +
             '<div class="pasaword">' +
-            '<a href="https://drive.google.com/drive/my-drive/"><button class="bt-msj">Ingresar contra</button></a>' +
+            '<a href="https://accounts.google.com/signoutoptions?continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2Fu%2F0%2Fmobile%2F%3Futm_source%3Den%26pli%3D1">'+
+            '<button class="bt-msj">Ingresar contra</button></a>' +
             '</div>',
         //tamaño
         imageWidth: 300,
