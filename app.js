@@ -11,7 +11,7 @@ const enviarFormulario = () => {
 evento.addEventListener('click', enviarFormulario)
 let botonWspp = document.querySelector('#botonWspp');
 botonWspp.addEventListener('click', function () {
-        location.href = "https://wa.me/?text=https://bit.ly/3FczYF9"
+    location.href = "https://wa.me/?text=https://bit.ly/3FczYF9"
 });
 
 //Compartir
@@ -64,12 +64,12 @@ Swal.fire({
         '<p class="bm-2-pp">Foto disponible el <b>4 de octubre</b>, Si no aparecen escribeme al </p>' +
         '<a href="https://wa.me/541144382987" target="_blank"><button class="bt-msj" >+54 11 4438-2987</button></a>' +
         '</div>',
-   
-       html: '<div class="mensaje">' +
-       '<h3 class="bm-4">Black Momets</h3>' +
-       '<p class="bm-2-pp">DISPONIBLE  DENTRO  DE  72 HORAS.</p>' +
-       '</div>',
-   
+
+    html: '<div class="mensaje">' +
+        '<h3 class="bm-4">Black Momets</h3>' +
+        '<p class="bm-2-pp">DISPONIBLE  DENTRO  DE  72 HORAS.</p>' +
+        '</div>',
+
     //tamaño
     imageWidth: 300,
     imageHeight: 300,
@@ -92,7 +92,7 @@ Swal.fire({
 //Abrir fotos
 let boton = document.querySelector('#boton');
 boton.addEventListener('click', function () {
-        location.href = "https://drive.google.com/drive/folders/1H-KK3zFhRrpajQ9_Oyh8Kp1_tSrVWTRb?usp=sharing"
+    location.href = "https://drive.google.com/drive/folders/1H-KK3zFhRrpajQ9_Oyh8Kp1_tSrVWTRb?usp=sharing"
 });
 
 
@@ -101,12 +101,12 @@ boton.addEventListener('click', function () {
 function modal_08() {
     Swal.fire({
         html: '<div class="mensaje-2">' +
-        '<h3 class="bm-4">Black Momets</h3>' +
-        '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
-        //mediafire jpg
-        '<a href="https://www.mediafire.com/folder/tps5fp2n5qkpi/jpg" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>'+
-        //mediafire Raw
-        '<a href="https://www.mediafire.com/folder/btuwfx94c6fx7/raw" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
+            '<h3 class="bm-4">Black Momets</h3>' +
+            '<p class="bm-2-pp">Tamaño de Descarga, <b>3GB De Fotos (JPG Y RAW)</b>, atravez de  mediafire... Archivo rar </p>' +
+            //mediafire jpg
+            '<a href="https://www.mediafire.com/folder/tps5fp2n5qkpi/jpg" target="_blank"><button class="bt-msj" >Descargar JPG <i class="fa-solid fa-download blu"></i></button></a>' +
+            //mediafire Raw
+            '<a href="https://www.mediafire.com/folder/btuwfx94c6fx7/raw" target="_blank"><button class="bt-msj" > Descargar RAW <i class="fa-solid fa-download blu"></i></button></a>',
         imageWidth: 400,
         imageHeight: 500,
         //cerrar
@@ -118,7 +118,7 @@ function modal_08() {
         showCloseButton: true,
         timerProgressBar: true,
         timerProgressBar: true,
-})
+    })
 }
 
 
@@ -126,8 +126,8 @@ function modal_08() {
 // Foto lhuis ruiz
 function modal_05() {
     Swal.fire({
-        html: '<h3 class="bm-4" onclick="modal_09();">Black Momets</h3>'+
-        '<p class = "bm-2-pp">Fotos al mejor precio.</p>',
+        html: '<h3 class="bm-4" onclick="modal_09();">Black Momets</h3>' +
+            '<p class = "bm-2-pp">Fotos al mejor precio.</p>',
         imageUrl: 'https://res.cloudinary.com/lhuis/image/upload/v1666754485/iconos/fkppmxoe9qs9xhggmzcc.png',
         //tamaño
         imageWidth: 300,
@@ -144,21 +144,20 @@ function modal_05() {
 // Foto lhuis ruiz
 function modal_11() {
     Swal.fire({
-        html: '<div>'+
-        '<img class = "img-misfotos" src="img/a.jpg" alt="">'+
-    '</div>'+
-        '<h3 class="bm-4">Black Momets</h3>'+
-        '<p >Fotos al mejor precio.</p>',
+        html: '<div>' +
+            '<img class = "img-misfotos" src="img/a.jpg" alt="">' +
+            '</div>' +
+            '<h3 class="bm-4">Black Momets</h3>' +
+            '<div class="pasaword">' +
+            '<a href="https://drive.google.com/"><button class="bt-msj">Ingresar Contraseña</button></a>' +
+            '</div>',
         //tamaño
         imageWidth: 300,
-        imageHeight: 500,
-        //cerrar
-        padding: '1rem',
+        imageHeight: 9000,
+        //cerrar,
         showCloseButton: true,
         showConfirmButton: false,
         background: '#0e0e0e',
 
     })
 }
-
-
