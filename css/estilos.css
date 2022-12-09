@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /*Texto No Select */
+    user-select: none;
 
 }
 
@@ -143,7 +145,7 @@ header {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(249, 94%, 43%, 0.555), hsla(0, 0%, 0%, 0.568)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.319), hsla(0, 0%, 0%, 0.286)), url(../img/b.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.609), hsla(0, 0%, 0%, 0.593)), url(../img/b.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -581,7 +583,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    z-index: 10000012;
+    z-index: 1;
 
 }
 
@@ -703,7 +705,6 @@ p {
 
     animation: parpadeo 4s linear infinite;
     transition: .4s ease;
-
 }
 
 .info-publicasion-img:hover {
@@ -855,7 +856,7 @@ p {
 }
 
 .info-publicasion-img {
-    width: 300px;
+    width: 250px;
 }
 
 .info-publicasion-btn {
@@ -993,11 +994,35 @@ p {
     display: flex;
     justify-content: center;
 }
+/*--------------inglesar contraseña------------*/
 .pasaword{
     width: auto;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin: 10px;
+}
+.bt-msj-3 {
+    width: 205px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 4px 14px 5px #ffffff2e;
+
+    animation: parpadeo 2s linear infinite;
+    transition: .1s ease;
+}
+.bt-msj-3:hover {
+    border-radius: 20px;
+    transition: .4s ease;
+}
+.olvides{
+    font-size: 12px;
 }
